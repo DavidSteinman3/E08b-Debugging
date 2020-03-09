@@ -21,6 +21,6 @@ func set_score(new_score: int) -> void:
 	emit_signal("updated")
 
 
-func set_deaths(new_value: int) -> void:
-	deaths = new_score
+func set_deaths(new_death: int) -> void:
+	deaths = new_death
 	emit_signal("died")
